@@ -6,7 +6,7 @@
  * @description
  */
 const log = require('log');
-const joi = require('joi');
+const joi = require('@hapi/joi');
 const path = require('path');
 const fs = require('fs');
 const chalk = require('chalk');
