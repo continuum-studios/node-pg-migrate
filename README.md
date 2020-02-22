@@ -1,10 +1,10 @@
 # node-pg-migrate
 
-![npm url](https://img.shields.io/npm/v/@liveaxle/node-pg-migrate.svg)
-![downloads](https://img.shields.io/npm/dw/@liveaxle/node-pg-migrate.svg)
-![build badge](https://img.shields.io/circleci/build/gh/liveaxle/node-pg-migrate.svg)
-![greenkeeper](https://badges.greenkeeper.io/liveaxle/node-pg-migrate.svg)
-[![codecov](https://codecov.io/gh/liveaxle/node-pg-migrate/branch/master/graph/badge.svg)](https://codecov.io/gh/liveaxle/node-pg-migrate)
+![npm url](https://img.shields.io/npm/v/@continuum-studios/node-pg-migrate.svg)
+![downloads](https://img.shields.io/npm/dw/@continuum-studios/node-pg-migrate.svg)
+![build badge](https://img.shields.io/circleci/build/gh/continuum-studios/node-pg-migrate.svg)
+![greenkeeper](https://badges.greenkeeper.io/continuum-studios/node-pg-migrate.svg)
+[![codecov](https://codecov.io/gh/continuum-studios/node-pg-migrate/branch/master/graph/badge.svg)](https://codecov.io/gh/continuum-studios/node-pg-migrate)
 
 
 This is a cli module that assists in creating and running Postgres Migrations using async/await.
@@ -33,11 +33,11 @@ I (@ktstowell) personally dislike the fragmentation of javascript libraries, how
 
 ## Installation
 
-`npm install @liveaxle/node-pg-migrate`
+`npm install @continuum-studios/node-pg-migrate`
 
 ## Usage
 
-Add `"npgm": "node ./node_modules/@liveaxle/node-pg-migrate"` to the `scripts` section of your application's package.json so you don't have to type the whole binary path.
+Add `"npgm": "node ./node_modules/@continuum-studios/node-pg-migrate"` to the `scripts` section of your application's package.json so you don't have to type the whole binary path.
 
 ## Contributing
 
