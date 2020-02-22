@@ -1,6 +1,6 @@
 {
   "name": "@continuum-studios/node-pg-migrate",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Synchronous (async/await) migration assistant for PostgreSQL",
   "main": "index.js",
   "scripts": {
