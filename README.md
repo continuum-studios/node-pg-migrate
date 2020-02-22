@@ -4,7 +4,8 @@
 ![downloads](https://img.shields.io/npm/dw/@continuum/node-pg-migrate.svg)
 ![build badge](https://img.shields.io/circleci/build/gh/continuum-studios/node-pg-migrate.svg)
 ![greenkeeper](https://badges.greenkeeper.io/continuum/node-pg-migrate.svg)
-[![codecov](https://codecov.io/gh/continuum/node-pg-migrate/branch/master/graph/badge.svg)](https://codecov.io/gh/continuum/node-pg-migrate)
+[![codecov](https://codecov.io/gh/continuum-studios/node-pg-migrate/branch/master/graph/badge.svg)](https://codecov.io/gh/continuum-studios/node-pg-migrate)
+
 
 
 This is a cli module that assists in creating and running Postgres Migrations using async/await.
