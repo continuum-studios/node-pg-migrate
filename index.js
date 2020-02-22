@@ -14,7 +14,7 @@ const db = require('./db');
 const task = args._[0];
 
 /**
- * [LOG_PREFIX description]
+ * Global Accessors.
  * @type {[type]}
  */
 global.LOG_PREFIX = chalk.white.underline(`Node DB Migrate:`) + ' ' + chalk.magenta(task);
