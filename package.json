@@ -1,5 +1,5 @@
 {
-  "name": "@liveaxle/node-pg-migrate",
+  "name": "@continuum-studios/node-pg-migrate",
   "version": "0.5.0",
   "description": "Synchronous (async/await) migration assistant for PostgreSQL",
   "main": "index.js",
