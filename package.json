@@ -1,5 +1,5 @@
 {
-  "name": "@continuum-studios/node-pg-migrate",
+  "name": "@continuum/node-pg-migrate",
   "version": "0.5.1",
   "description": "Synchronous (async/await) migration assistant for PostgreSQL",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "url": "git+ssh://git@github.com:liveaxle/node-pg-migrate.git"
   },
   "author": "liveaxle",
-  "license": "ISC",
+  "license": "ISC", 
   "keywords": [
     "postgres",
     "pgsql",
