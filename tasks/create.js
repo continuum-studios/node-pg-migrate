@@ -56,7 +56,7 @@ const migrationFileMappings = {
  */
 module.exports = async function(args={}) {
   let model = Object.assign({}, {name: args.name || args._[1], before: args.before || ''}, args);
-  let {error, value} = joi.validate(model, schema);
+  let {error, value} = schema.validate(model);
 
   // Validate CLI params
   if(error) {

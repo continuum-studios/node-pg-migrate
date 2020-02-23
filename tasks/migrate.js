@@ -47,7 +47,7 @@ const order = {
  */
 module.exports = async function(args={}, task, source, target) {
   let model = Object.assign({}, {name: args.name || args._[1]}, args);
-  let {error, value} = joi.validate(model, schema);
+  let {error, value} = schema.validate(model);
   // grab files in each directory
   // check for existence of migrations table
   //  run sync for loop

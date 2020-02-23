@@ -8,7 +8,12 @@
     "test:ci": "./node_modules/.bin/nyc --timeout=5000 --reporter=text-lcov > coverage.lcov ./node_modules/.bin/mocha --reporter=mocha-junit-reporter --reporter-options mochaFile=./test-results/mocha/results.xml",
     "ci:update": "git add . && git commit -m'ci update'&& git push",
     "istanbul": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha ./test/*.js",
-    "codecov": "./node_modules/.bin/codecov"
+    "codecov": "./node_modules/.bin/codecov",
+    "start": "docker-compose up",
+    "stop": "docker-compose kill -s SIGINT",
+    "nuke": "npm run stop && rm -rf ./volume && docker-compose rm -f",
+    "restart": "npm run stop && npm start",
+    "restart:nuke": "npm run nuke && npm start"
   },
   "repository": {
     "type": "git",
